@@ -1667,30 +1667,6 @@ points = PackedVector3Array(0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_uv1u1"]
 points = PackedVector3Array(0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_mttg0"]
-points = PackedVector3Array(0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5)
-
-[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_xqc4s"]
-points = PackedVector3Array(0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5)
-
-[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_dpesu"]
-points = PackedVector3Array(0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5)
-
-[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_jm32b"]
-points = PackedVector3Array(0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5)
-
-[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_xiopl"]
-points = PackedVector3Array(0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5)
-
-[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_jomhb"]
-points = PackedVector3Array(0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5)
-
-[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_1og2j"]
-points = PackedVector3Array(0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5)
-
-[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_q3uxo"]
-points = PackedVector3Array(0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5)
-
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_dfkeq"]
 points = PackedVector3Array(0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5)
 
@@ -9225,7 +9201,6 @@ points = PackedVector3Array(0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 
 [node name="GuidanceBoxHolder" type="Node3D" parent="BasicOBJ_Group" index="0" unique_id=1163463213]
 
 [node name="Player" parent="BasicOBJ_Group" index="1" unique_id=1905697100 instance=ExtResource("19_kmo8t")]
-floor_snap_length = 1.0
 firstDirection = Vector3(0, -90, 0)
 secondDirection = Vector3(0, 0, 0)
 animation = NodePath("../AnimationPlayer")
@@ -9234,7 +9209,7 @@ level_data = ExtResource("2_07gtp")
 [node name="Trigger" parent="BasicOBJ_Group/Player" index="6" unique_id=608483111 instance=ExtResource("trigger_tscn_res")]
 transform = Transform3D(2.5, 0, 0, 0, 2.5, 0, 0, 0, 2.5, 0, -0.6248393, 0)
 script = ExtResource("5_m4i0l")
-enable = true
+enable = false
 
 [node name="CameraRoot" parent="BasicOBJ_Group" index="2" unique_id=1925825702 instance=ExtResource("21_ajedy")]
 
@@ -10047,11 +10022,11 @@ reverse = true
 draw_preview = true
 
 [node name="Trigger62" parent="Node3D" index="5" unique_id=984135767 instance=ExtResource("trigger_tscn_res")]
-transform = Transform3D(6.556709e-07, 0, 1, 0, 1, 0, -5, 0, 1.3113416e-07, -542.2272, 48.727417, 436.37332)
+transform = Transform3D(6.556709e-07, 0, 1, 0, 1, 0, -5, 0, 1.3113416e-07, -543.4528, 48.727417, 436.39032)
 
 [node name="Jump" type="Node3D" parent="Node3D/Trigger62" index="3" unique_id=4096233]
 script = ExtResource("14_sk26j")
-height = 14.0
+height = 15.45
 
 [node name="jumppre" type="Node3D" parent="Node3D/Trigger62" index="4" unique_id=1686964360]
 transform = Transform3D(6.556709e-07, 0, 1, 0, 1, 0, -5, 0, 1.3113416e-07, -542.2272, 48.727417, 436.37332)
@@ -10930,56 +10905,11 @@ collision_layer = 2
 [node name="CollisionShape3D" type="CollisionShape3D" parent="PART 1/bridge/bridge ingredient (9)/StaticBody3D" index="0" unique_id=225904936]
 shape = SubResource("ConvexPolygonShape3D_uv1u1")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="PART 1/bridge/bridge ingredient (10)" parent_id_path=PackedInt32Array(1009892456) index="0" unique_id=103067011]
-collision_layer = 2
+[node name="bridge ingredient (10)" parent="PART 1/bridge" parent_id_path=PackedInt32Array(1750011514) index="10" unique_id=1009892456]
+transform = Transform3D(5.413031, 0, -0.017072767, 0, 1, 0, 0.09242904, 0, 0.99985427, -3.9000015, 8.626036, 16.379997)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="PART 1/bridge/bridge ingredient (10)/StaticBody3D" index="0" unique_id=1523931982]
-shape = SubResource("ConvexPolygonShape3D_mttg0")
-
-[node name="StaticBody3D" type="StaticBody3D" parent="PART 1/bridge/bridge ingredient (11)" parent_id_path=PackedInt32Array(547920754) index="0" unique_id=125368889]
-collision_layer = 2
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="PART 1/bridge/bridge ingredient (11)/StaticBody3D" index="0" unique_id=1099696809]
-shape = SubResource("ConvexPolygonShape3D_xqc4s")
-
-[node name="StaticBody3D" type="StaticBody3D" parent="PART 1/bridge/bridge ingredient (12)" parent_id_path=PackedInt32Array(402859250) index="0" unique_id=145632012]
-collision_layer = 2
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="PART 1/bridge/bridge ingredient (12)/StaticBody3D" index="0" unique_id=1881164583]
-shape = SubResource("ConvexPolygonShape3D_dpesu")
-
-[node name="StaticBody3D" type="StaticBody3D" parent="PART 1/bridge/bridge ingredient (13)" parent_id_path=PackedInt32Array(928431034) index="0" unique_id=267112853]
-collision_layer = 2
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="PART 1/bridge/bridge ingredient (13)/StaticBody3D" index="0" unique_id=1706290899]
-shape = SubResource("ConvexPolygonShape3D_jm32b")
-
-[node name="StaticBody3D" type="StaticBody3D" parent="PART 1/bridge/bridge ingredient (14)" parent_id_path=PackedInt32Array(2067655460) index="0" unique_id=1280497091]
-collision_layer = 2
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="PART 1/bridge/bridge ingredient (14)/StaticBody3D" index="0" unique_id=2077039905]
-shape = SubResource("ConvexPolygonShape3D_xiopl")
-
-[node name="StaticBody3D" type="StaticBody3D" parent="PART 1/bridge/bridge ingredient (15)" parent_id_path=PackedInt32Array(823948588) index="0" unique_id=1469282529]
-collision_layer = 2
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="PART 1/bridge/bridge ingredient (15)/StaticBody3D" index="0" unique_id=1425355399]
-shape = SubResource("ConvexPolygonShape3D_jomhb")
-
-[node name="StaticBody3D" type="StaticBody3D" parent="PART 1/bridge/bridge ingredient (16)" parent_id_path=PackedInt32Array(43051621) index="0" unique_id=1301549703]
-collision_layer = 2
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="PART 1/bridge/bridge ingredient (16)/StaticBody3D" index="0" unique_id=403854378]
-shape = SubResource("ConvexPolygonShape3D_1og2j")
-
-[node name="StaticBody3D" type="StaticBody3D" parent="PART 1/bridge/bridge ingredient (17)" parent_id_path=PackedInt32Array(1922391524) index="0" unique_id=2123954369]
-collision_layer = 2
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="PART 1/bridge/bridge ingredient (17)/StaticBody3D" index="0" unique_id=2129253793]
-shape = SubResource("ConvexPolygonShape3D_q3uxo")
-
-[node name="StaticBody3D" type="StaticBody3D" parent="PART 1/bridge/the road" parent_id_path=PackedInt32Array(739853690) index="0" unique_id=2003846983]
-collision_layer = 2
+[node name="bridge ingredient (11)" parent="PART 1/bridge" parent_id_path=PackedInt32Array(1750011514) index="11" unique_id=547920754]
+transform = Transform3D(5.4096828, 0, -0.029983437, 0, 1, 0, 0.21161407, 0, 0.7664938, -3.3199997, 8.70445, 18.07)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="PART 1/bridge/bridge ingredient (18)" parent_id_path=PackedInt32Array(1075196346) index="0" unique_id=1500100844]
 collision_layer = 2
@@ -11079,7 +11009,8 @@ collision_layer = 3
 shape = SubResource("ConvexPolygonShape3D_kseew")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="PART 1/dw/Rock Type3 02" parent_id_path=PackedInt32Array(402968269) index="0" unique_id=2034801364]
-collision_layer = 2
+transform = Transform3D(1, 0, 0, 0, 1.4951421, -7.1054274e-15, 0, -7.1054274e-15, 1.677886, 0, 0, 0)
+collision_layer = 4
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="PART 1/dw/Rock Type3 02/StaticBody3D" index="0" unique_id=1053099530]
 shape = SubResource("ConvexPolygonShape3D_8uor2")
@@ -14630,7 +14561,7 @@ debug_mode = true
 
 [node name="Jump" type="Node3D" parent="PART 3/road part/泥土底座 (2)/草地面 (2)/Trigger32" index="3" unique_id=1846773385]
 script = ExtResource("14_sk26j")
-height = 5.0
+height = 4.375
 
 [node name="jumpre" type="Node3D" parent="PART 3/road part/泥土底座 (2)/草地面 (2)/Trigger32" index="4" unique_id=1466005476]
 transform = Transform3D(-5.0000005, -2.5287983e-07, 8.19564e-07, -1.2644023e-06, 1, -7.9107804e-07, -4.1723256e-06, -7.910782e-07, -1.0000001, -449.5987, -0.34803724, 323.6499)
@@ -15258,7 +15189,7 @@ wait_times = Array[float]([0.0])
 transition_type = 1
 
 [node name="StaticBody3D" type="StaticBody3D" parent="PART 3/road part (2)/泥土底座 (7)/草地面 (5)2" parent_id_path=PackedInt32Array(1625484919) index="0" unique_id=1711093468]
-transform = Transform3D(1, 0, 0, 0, 1.0000001, 0, 0, 0, 1.0000001, 0, 0.10121536, 0)
+transform = Transform3D(1, 0, 0, 0, 1.0000002, 0, 0, 0, 1.0000004, 0, 0.000113248825, 0)
 collision_layer = 2
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="PART 3/road part (2)/泥土底座 (7)/草地面 (5)2/StaticBody3D" index="0" unique_id=1437417720]
@@ -16768,6 +16699,9 @@ collision_layer = 2
 [node name="CollisionShape3D" type="CollisionShape3D" parent="PART 4/Tree1/Cube2/StaticBody3D" index="0" unique_id=972020872]
 shape = SubResource("ConvexPolygonShape3D_c121n")
 
+[node name="Path" parent="PART 4" parent_id_path=PackedInt32Array(1524302261) index="6" unique_id=136328877]
+transform = Transform3D(150, 0, 0, 0, 1.2395381, -9.999659, 0, 149.99487, 0.08263587, -570.84, 61.460007, 435.31427)
+
 [node name="StaticBody3D" type="StaticBody3D" parent="PART 4/dirt wall with grass (137)2/dirt wall with grass (1)194" parent_id_path=PackedInt32Array(1742856906) index="0" unique_id=1769162018]
 collision_layer = 2
 
@@ -18236,6 +18170,7 @@ transform = Transform3D(4.9497476, 0, -0.70710677, 0, 10, 0, 4.9497476, 0, 0.707
 script = ExtResource("19_mgc26")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="PART 4/升起母体/MovingPosMax_0" index="0" unique_id=1231617548]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 0, 0, 0)
 shape = SubResource("BoxShape3D_0gcho")
 
 [node name="MovingPosMax_0_Component" type="Node3D" parent="PART 4/升起母体/MovingPosMax_0" index="1" unique_id=189020971 node_paths=PackedStringArray("animated_object")]
@@ -18253,6 +18188,7 @@ transform = Transform3D(5.9429, 0, -0.6694438, 0, 9.999998, 0, 5.3555503, 0, 0.7
 script = ExtResource("19_mgc26")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="PART 4/升起母体 (1)/MovingPosMax_0" index="0" unique_id=986286770]
+transform = Transform3D(1, 0, 3.7252903e-09, 0, 1, 0, -2.3841858e-07, 0, 1, 0, 0, 0)
 shape = SubResource("BoxShape3D_8uyr1")
 
 [node name="MovingPosMax_0_Component" type="Node3D" parent="PART 4/升起母体 (1)/MovingPosMax_0" index="1" unique_id=482134665 node_paths=PackedStringArray("animated_object")]
@@ -18269,6 +18205,7 @@ animations = [NodePath("../../../Node3D2/linejump4")]
 animation_names = Array[StringName]([&"linejump4"])
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="PART 4/升起母体 (1)/CustomAnimPlay_0" index="0" unique_id=1802329518]
+transform = Transform3D(1, 0, 3.7252903e-09, 0, 1, 0, -2.3841858e-07, 0, 1, 0, 0, 0)
 shape = SubResource("BoxShape3D_o7ybs")
 
 [node name="升起母体 (2)" parent="PART 4" parent_id_path=PackedInt32Array(1524302261) index="146" unique_id=47470559]
@@ -20411,6 +20348,9 @@ roughness = 0.22
 water_level = 0.0
 edge_threshold = 0.35
 edge_softness = 0.65
+
+[node name="Ground" parent="PART 4" parent_id_path=PackedInt32Array(1524302261) index="408" unique_id=1080893231 instance=ExtResource("3_nbu6l")]
+transform = Transform3D(166.02917, 0, 0, 0, 1, 0, 0, 0, 139.83008, -649.329, 61.869, 480.321)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="PART 5/升起地面 （母体/升起装饰/草地 (1)/50_/Shell_000" parent_id_path=PackedInt32Array(666004026) index="0" unique_id=740462749]
 collision_layer = 2
@@ -28734,6 +28674,31 @@ trigger_time = 0.1
 
 [node name="Gem" parent="." index="32" unique_id=1967176249 instance=ExtResource("2_crk26")]
 transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -493.67578, 48.50001, 397.5671)
+
+[node name="Trigger3" parent="." index="33" unique_id=1194761348 instance=ExtResource("5_nbu6l")]
+transform = Transform3D(1, 0, 0, 0, 31.483263, 0, 0, 0, 53.703026, -745.94995, 37.92793, 587.02783)
+
+[node name="Node3D" type="Node3D" parent="Trigger3" index="3" unique_id=1516933996]
+script = ExtResource("23_mgc26")
+reason = 2
+
+[node name="Trigger4" parent="." index="34" unique_id=1656635359 instance=ExtResource("5_nbu6l")]
+transform = Transform3D(0.95146275, 0, -16.527857, 0, 31.483263, 0, 0.30776396, 0, 51.096428, -765.78, 37.92793, 608.96124)
+
+[node name="Node3D" type="Node3D" parent="Trigger4" index="3" unique_id=1862509978]
+script = ExtResource("23_mgc26")
+reason = 2
+
+[node name="Trigger5" parent="." index="35" unique_id=1395492931 instance=ExtResource("5_nbu6l")]
+transform = Transform3D(0.95146275, 0, -16.527857, 0, 31.483263, 0, 0.30776396, 0, 51.096428, -774.1494, 44.879158, 634.2158)
+
+[node name="Node3D" type="Node3D" parent="Trigger5" index="3" unique_id=273026103]
+script = ExtResource("23_mgc26")
+reason = 2
+
+[node name="Ground" parent="." index="36" unique_id=9042080 instance=ExtResource("3_nbu6l")]
+transform = Transform3D(6.6714063, 0, 0, 0, 1, 0, 0, 0, 36.388546, -77.895, -1.0859575, 66.472)
+visible = false
 
 [connection signal="body_entered" from="Node3D/Trigger33" to="Node3D/Trigger33" method="_on_body_entered"]
 [connection signal="body_entered" from="Node3D/Trigger58" to="Node3D/Trigger58" method="_on_body_entered"]
