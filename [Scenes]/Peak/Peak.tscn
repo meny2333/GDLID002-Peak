@@ -16,7 +16,7 @@
 [ext_resource type="Script" uid="uid://df6gwnqt226sr" path="res://#Template/[Scripts]/Trigger/GravityTrigger.gd" id="16_c7vge"]
 [ext_resource type="Script" uid="uid://fd8r2kq3fyvb" path="res://[Scenes]/Peak/customanimplay.gd" id="19_i04bb"]
 [ext_resource type="PackedScene" uid="uid://brdmblcywuklx" path="res://#Template/Player.tscn" id="19_kmo8t"]
-[ext_resource type="Script" uid="uid://bb5lh2cc1yfy4" path="res://#Template/[Scripts]/Trigger/Single/BaseTrigger.gd" id="19_mgc26"]
+[ext_resource type="Script" uid="uid://bb5lh2cc1yfy4" path="res://#Template/[Scripts]/Trigger/BaseTrigger.gd" id="19_mgc26"]
 [ext_resource type="Script" uid="uid://bc4wy3t4uueh8" path="res://[Scenes]/Peak/CustomCameraTrigger.gd" id="19_xwfd1"]
 [ext_resource type="Script" uid="uid://cykhxwp0lnani" path="res://#Template/[Scripts]/Animator/MovingPosMax.gd" id="20_m4i0l"]
 [ext_resource type="PackedScene" uid="uid://be4vgpeo0nv84" path="res://#Template/CameraRoot.tscn" id="21_ajedy"]
@@ -9204,7 +9204,7 @@ points = PackedVector3Array(0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 
 firstDirection = Vector3(0, -90, 0)
 secondDirection = Vector3(0, 0, 0)
 animation = NodePath("../AnimationPlayer")
-level_data = ExtResource("2_07gtp")
+levelData = ExtResource("2_07gtp")
 
 [node name="Trigger" parent="BasicOBJ_Group/Player" index="6" unique_id=608483111 instance=ExtResource("trigger_tscn_res")]
 transform = Transform3D(2.5, 0, 0, 0, 2.5, 0, 0, 0, 2.5, 0, -0.6248393, 0)
@@ -24121,6 +24121,7 @@ script = ExtResource("19_mgc26")
 shape = SubResource("BoxShape3D_g12we")
 
 [node name="MovingPosMax_0_Component" type="Node3D" parent="PART 7/第二块升起部分/TriggerA (16)/MovingPosMax_0" index="1" unique_id=1122513854]
+transform = Transform3D(0.9999992, 0, 0, 0, 0.99999976, 0, 0, 0, 0.9999999, 0, 0, 0)
 script = ExtResource("20_m4i0l")
 target_positions = Array[Vector3]([Vector3(-966.4, 9.1, 872.2)])
 move_durations = Array[float]([0.2])
