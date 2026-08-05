@@ -9,6 +9,8 @@
 
 [sub_resource type="Environment" id="Environment_ys6ci"]
 fog_enabled = true
+fog_mode = 1
+fog_density = 1.0
 
 [sub_resource type="Animation" id="Animation_wkp8b"]
 length = 0.001
@@ -28,7 +30,7 @@ _data = {
 
 [node name="Player" parent="BasicOBJ_Group" unique_id=2020142567 instance=ExtResource("1_ssf0a")]
 animation = NodePath("../AnimationPlayer")
-level_data = ExtResource("2_cwhkr")
+levelData = ExtResource("2_cwhkr")
 
 [node name="Node3D" type="Node3D" parent="BasicOBJ_Group/Player" unique_id=1968713715]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.6166801, 0)
